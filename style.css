@@ -1,0 +1,32 @@
+h1 {
+    color: red;
+}
+
+div {
+    border-style: solid;
+    border-color: black;
+}
+
+.left-bg {
+    position: relative;
+    width: 25%;
+    z-index: -1;
+}
+
+.logo {
+    position: absolute;
+    height: auto;
+    width: 25%;
+}
+
+body {
+    background: #2eadad; /* set background color */
+    height: 50vh; /* set height to 50% of viewport height */
+  }
+
+
+*  {    
+    padding: 10px;
+
+}
+
