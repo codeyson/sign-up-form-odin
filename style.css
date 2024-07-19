@@ -1,32 +1,59 @@
-h1 {
-    color: red;
+
+*  {    
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(248, 247, 247);
 }
 
+.container {
+
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+
+
+}
 div {
     border-style: solid;
     border-color: black;
 }
 
-.left-bg {
-    position: relative;
-    width: 25%;
-    z-index: -1;
+.left-column {
+    width: 100%;
 }
 
-.logo {
-    position: absolute;
+.left-bg-img {
+    position: relative;
+    width: 25%;
+}   
+
+.logo  {
+    position: relative;
     height: auto;
     width: 25%;
 }
 
-body {
-    background: #2eadad; /* set background color */
-    height: 50vh; /* set height to 50% of viewport height */
-  }
+.left-column {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
 
-
-*  {    
-    padding: 10px;
-    margin: 10px;
 }
 
+form  {
+    background-color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+button {
+    background: green;
+    border: none;
+    border-radius: 10px;
+    font-weight: 10px;
+    color: white;
+}
