@@ -35,8 +35,8 @@ div {
 
 .left-column {
     display: flex;
+    justify-content: flex-start;
     height: 100vh;
-    justify-content: center;
     align-items: center;
 
 }
@@ -48,10 +48,12 @@ form  {
     justify-content: space-between;
 }
 
-
+.user-detail {
+    width: 50px;
+}
 
 button {
-    background: green;
+    background: #596D48;
     border: none;
     border-radius: 10px;
     font-weight: 10px;
