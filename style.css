@@ -6,29 +6,29 @@
 }
 
 .container {
-
     display: flex;
-    padding: 10px;
-    margin: 0px;
-
-
+    padding: 20px;
+    margin: auto;
+    background: green;
 }
 div {
     border-style: solid;
     border-color: black;
 }
 
-.left-column {
-    width: 100%;
-}
+
 
 .left-bg-img {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0px ;
     position: relative;
-    width: 25%;
+    width: 100%;
+    height: 100%;
 }   
 
 .logo  {
-    position: relative;
+    position: absolute;
     height: auto;
     width: 25%;
 }
@@ -36,8 +36,10 @@ div {
 .left-column {
     display: flex;
     justify-content: flex-start;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     align-items: center;
+    position: relative;
 
 }
 
@@ -45,14 +47,27 @@ form  {
     background-color: wheat;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
 }
 
-.user-detail {
-    width: 50px;
+
+
+input::before {
+    content: none;
+    border-color: yellow;
 }
 
-button {
+input:invalid {
+    border-color: red;
+  }
+  
+input:valid {
+    border-color: green;
+  }
+
+
+button {    
     background: #596D48;
     border: none;
     border-radius: 10px;

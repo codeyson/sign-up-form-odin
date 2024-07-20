@@ -9,58 +9,67 @@
 <body>
     <div class="container">
         <div class="left-column">
-            <div class="left-bg">
-                <img src="asset/odin-lined.png" alt="logo" class="logo">
                 <img src="asset/halie-west-25xggax4bSA-unsplash.jpg" alt="left-bg" class="left-bg-img">
-             </div>
+            <h1>
+                <img src="asset/odin-lined.png" alt="logo" class="logo"> <span>ODIN</span>
+            </h1>
         </div>
         <div class="right-column">
-             <h3>
-                 This is not a real online service! You know you need somthing like this in your life to realize your deepest dreams. Sign up now to geet started. <br> <br>
-                 You know you want to.
-             </h3>
-             <h2>
-                 Let's do this!
+             <h2 class="main">
+                 This is not a real online service! You know you need somthing like this in your life to realize your deepest dreams. Sign up now to geet started.
              </h2>
-             <form action="h1" method="get">
+             <h2 class="subtitle">
+                 You know you want to.
+             </h2>
+            <div>
+                <p>
+                    Let's Do This!
+                </p>
+                <form action="h1" method="get">
+                    <div class="user-details">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    
+                    <div class="user-details">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" name="last-name" required> 
+                    </div>
 
-                <div class="user-details">
-                 <label for="first-name">First Name</label>
-                  <input type="text" id="first-name" name="first-name" required>
-                </div>
-                
-                <div class="user-details">
-                  <label for="last-name">Last Name</label>
-                  <input type="text" id="last-name" name="last-name" required> 
-                </div>
+                    <div class="user-details">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    </div>
 
-                <div class="user-details">
-                   <label for="email">Email</label>
-                   <input type="email" id="email">
-                </div>
+                    <div class="user-details">
+                    <label for="phone">Phone</label>
+                    <input type="number" id="phone" name="phone" required>
+                    </div>
 
-                <div class="user-details">
-                   <label for="phone">Phone</label>
-                   <input type="number" id="phone" name="phone" required>
-                </div>
+                    <div class="user-details">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
 
-                <div class="user-details">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
+                    <div class="user-details">
+                        <label for="cPassword"> Confirm Password</label>
+                        <input type="Password" id="password" name="cPassword" required>
+                    </div>
+                    <div>   
+                    <button type="submit">Create Account</button>
 
-                <div class="user-details">
-                    <label for="cPassword"> Confirm Password</label>
-                    <input type="Password" id="password" name="cPassword" required>
-                </div>
-                <div>   
-                   <button type="submit">Create Account</button>
-
-                   <p>Already have an account?</p>
-                    <p>Log in</p>
-                </div>
-             </form>
-         </div>
+                    <p id="acc">
+                        Already have an account? 
+                        <span>
+                            <a  href="#">
+                                Log in
+                            </a>
+                        </span>
+                    </p>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 </html>
