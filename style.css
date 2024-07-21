@@ -18,7 +18,7 @@ body {
 .image-container {
     background: url('asset/halie-west-25xggax4bSA-unsplash.jpg') no-repeat center center;
     background-size: cover;
-    width: 50%;
+    max-width: 50%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -27,24 +27,22 @@ body {
 }
 
 .left-column {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.507);
     display: flex;
-    padding: 20px;
+    align-items: center;
     justify-content: center;
-   /* border-radius: 8px;*/
-    width: 93.6%;
-    
 }
 
 .logo {
-    width: 100px;
-    margin-bottom: 10px;
+    display: inline;
+    width: 10vw;
+    height: auto;
 }
 
 .page-title {
     color: #fff;
     margin: 20px;
-    font-size:6rem;
+    font-size:6em;
     text-align:center;
     font-family:'Norse Bold';
 }
@@ -55,32 +53,82 @@ body {
     font-size: 20px;
 }
 
-.form-column {
-    padding: 10px 100px 100px 10px;
-    background-color: #faff;
-    margin: 0px;
-}
-
 .main {
     padding-left: 5px ;
 }
 
-.main-text {
-    color: #555;
-    font-size: 15px;
-    line-height: 1.5;
-    padding-left: 10px;
+.main-text, .subtitle {
+    padding: 2.55px 20vw 0px 2.5vw;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
 }
-
-
 
 .form-container {
+    padding-left: 2.5vw;
+    padding-top: 10px;
+    padding-bottom: 30px;
     display: flex;
-    text-wrap: wrap;
+    flex-direction: row;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 legend {
-    font-size: 20px;
-    margin-bottom: 20px;
+    padding-left: 2.5vw;
+    padding-top: 20px;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
+.actual-form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 200px 10px 5px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 50px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.last-name, .phone, .cPassword {
+    display: flex;
+    justify-content: center;
+    padding-right: 25px;
+
+}
+
+button {
+    background-color: #556b2f;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
