@@ -26,9 +26,61 @@ body {
     align-items: center;
 }
 
-
-
-div {
-    border: solid;
-    border-color: black;
+.left-column {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+   /* border-radius: 8px;*/
+    width: 93.6%;
+    
 }
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.page-title {
+    color: #fff;
+    margin: 20px;
+    font-size:6rem;
+    text-align:center;
+    font-family:'Norse Bold';
+}
+
+.right-column {
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+    font-size: 20px;
+}
+
+.form-column {
+    padding: 10px 100px 100px 10px;
+    background-color: #faff;
+    margin: 0px;
+}
+
+.main {
+    padding-left: 5px ;
+}
+
+.main-text {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.5;
+    padding-left: 10px;
+}
+
+
+
+.form-container {
+    display: flex;
+    text-wrap: wrap;
+}
+legend {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
